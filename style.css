@@ -1,0 +1,113 @@
+nav{
+    background-color: #313131;
+}
+.nav-item{
+    transition: 0.3s;
+    padding:5px 10px 5px 10px;
+    display: flex;
+}
+.nav-item i{
+    margin-top: 4px;
+    padding-right: 10px;
+    color: white;
+    text-align: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item a:hover,.user-name a:hover{
+    color: whitesmoke;
+}
+.nav-item:hover{
+    border-radius: 15px;
+    background-color: red;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.in-page{
+    border-radius: 10px;
+    background-color: #777777;
+}
+.usr{
+    width: 65%;
+}
+.user-name{
+    display: flex;
+    width: 20%;
+    margin-left: 75%;
+}
+.user-name i{
+    color: white;
+    margin-top: 3px;
+    padding-right: 10px;
+}
+.user-name a{
+    text-decoration: none;
+    color: white;
+}
+.well-page{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.con{
+    display: flex;
+    background-color: #D6D6D6;
+    border-radius: 5px;
+}
+.con ul{
+    padding: 50px;
+    width: 60%;
+    margin:auto;
+}
+.con ul li{
+    list-style-type: none;
+    list-style: none;
+}
+.con ul li h1,.con ul li p{
+    text-align: center;
+    margin-left: -10px;
+}
+.con-list{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    border-radius: 5px;
+    width: 20%;
+    height: 150px;
+}
+.item:first-child,.item:last-child{
+    background-color: #0054FF;
+}
+.item:nth-child(2){
+    background-color: red;
+}
+.item:nth-child(3){
+    background-color: #FFFF00;
+}
+.item-con{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.item-con i{
+    color: white;
+    font-size: 30px;
+}
+.item-con h2{
+    color: white;
+    font-size: 35px;
+}
+.item h3{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
