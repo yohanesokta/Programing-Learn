@@ -1,4 +1,4 @@
-public class Main {
+public class Method {
     public static void main(String[] args) {
         sayHello("Yohanes");
         sayHello("Yohanes");

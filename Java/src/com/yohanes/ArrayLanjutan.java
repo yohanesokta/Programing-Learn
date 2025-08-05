@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Main {
+public class ArrayLanjutan {
     public static void main(String[] args) {
         int[] arrayAngka = {1,2,3,4};
         // Mengcopy

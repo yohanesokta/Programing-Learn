@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class Array {
     public static void main(String[] args) {
        int[] arrayInteger = {1,2,3,4};
        for (int arrayInteger2 : arrayInteger) {
